@@ -1,0 +1,31 @@
+# IntelliJ IDEA and etcs
+.idea/
+**/*.iml
+**/*.bak
+**/*.swp
+**/.DS_Store
+
+# NodeJS
+.sass-cache/
+node_modules/
+npm-debug.log
+
+# Sources
+src/css/
+src/html/
+src/images/
+src/js/
+src/sprites/
+
+# Distributes
+www_contents/**/*.appcache
+www_contents/assets/
+
+# for markup
+src/__MARKUP__/**/*.css
+src/__MARKUP__/**/*.css.map
+
+# for htmlindex
+src/pre-pages/index.json
+# for generated sprites
+src/pre-styles/__SPRITE__/

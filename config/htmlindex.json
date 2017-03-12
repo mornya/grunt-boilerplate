@@ -1,0 +1,8 @@
+{
+	"basePath" : "src/html",
+	"outPath" : "src/pre-pages",
+	"linkPath" : "../html",
+	"exceptDirs" : [
+		"__INCLUDE__"
+	]
+}

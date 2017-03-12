@@ -1,0 +1,56 @@
+{
+  "name": "mornya static resources boilerplate for Grunt",
+  "version": "0.0.1",
+  "private": true,
+  "author": "mornya",
+  "description": "mornya static resources boilerplate for Grunt",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@bitbucket.org/mornya/com.mornya.www.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "eslint": "^3.12.2",
+    "grunt": "^1.0.0",
+    "grunt-appcache": "^0.2.0",
+    "grunt-babel": "^6.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-include-replace": "^4.0.0",
+    "grunt-newer": "^1.1.0",
+    "grunt-notify": "^0.4.1",
+    "grunt-spritesmith": "^6.3.0",
+    "htmlparser2": "^3.9.1",
+    "jit-grunt": "^0.10.0",
+    "jshint-stylish": "^2.2.1",
+    "load-grunt-tasks": "^3.2.0",
+    "minimatch": "^3.0.0",
+    "mustache": "^2.1.3",
+    "time-grunt": "^1.2.1",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.2.0",
+    "cookie-parser": "~1.1.0",
+    "ejs": "^1.0.0",
+    "request": "^2.37.0"
+  }
+}

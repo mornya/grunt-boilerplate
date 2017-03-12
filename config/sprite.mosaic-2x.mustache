@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+${{spritesheet_name}}: (
+	spritesheet_name: {{spritesheet_name}},
+	image_url: "{{{spritesheet.escaped_image}}}",
+	{{#items}}
+	{{name}}: (offset_x: {{#options.zerounit}}{{px.offset_x}}/2{{/options.zerounit}}, offset_y: {{#options.zerounit}}{{px.offset_y}}/2{{/options.zerounit}}, width: {{px.width}}/2, height: {{px.height}}/2),
+	{{/items}}
+);
+
+@mixin {{spritesheet_name}}($filename) {
+	$dimension-map: map-get(${{spritesheet_name}}, $filename);
+	$image-url: map-get(${{spritesheet_name}}, image_url);
+
+	$offset-width: map-get($dimension-map, width);
+	$offset-height: map-get($dimension-map, height);
+	$offset-x: map-get($dimension-map, offset_x);
+	$offset-y: map-get($dimension-map, offset_y);
+
+	display: inline-block;
+	overflow: hidden;
+	width: $offset-width;
+	height: $offset-height;
+	background: url("#{$image-url}?v=#{timestamp()}") no-repeat $offset-x $offset-y;
+	-webkit-background-size: ({{spritesheet.px.width}}/2) ({{spritesheet.px.height}}/2);
+	background-size: ({{spritesheet.px.width}}/2) ({{spritesheet.px.height}}/2);
+}
