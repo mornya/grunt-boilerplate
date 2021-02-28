@@ -1,31 +1,61 @@
-# IntelliJ IDEA and etcs
-.idea/
+# See below url for more informations.
+# https://help.github.com/articles/ignoring-files
+
+# Local only
+/coverage
+/node_modules
+/build
+/out
+/dist
+/tmp
+/temp
+/temporary
+/*.tgz
+/.env
+/.env.local
+.DS_Store
+.eslintcache
+
+# Logs
+/logs
+*.log
+stats.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.*.json
+
+# Editor directories and files
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 **/*.iml
-**/*.bak
-**/*.swp
-**/.DS_Store
 
-# NodeJS
-.sass-cache/
-node_modules/
-npm-debug.log
+# Private keys
+*.key
+*.p12
+*.pem
+*.pfx
+*.csr
 
-# Sources
+# Local files
 src/css/
 src/html/
 src/images/
 src/js/
 src/sprites/
-
-# Distributes
 www_contents/**/*.appcache
 www_contents/assets/
 
-# for markup
+# markup
 src/__MARKUP__/**/*.css
 src/__MARKUP__/**/*.css.map
 
 # for htmlindex
 src/pre-pages/index.json
+
 # for generated sprites
-src/pre-styles/__SPRITE__/
+src/pre-styles/__SPRITE__
