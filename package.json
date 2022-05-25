@@ -31,7 +31,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "eslint": "^3.19.0",
-    "grunt": "^1.3.0",
+    "grunt": "^1.5.3",
     "grunt-appcache": "^0.2.1",
     "grunt-babel": "^8.0.0",
     "grunt-contrib-clean": "^2.0.0",
