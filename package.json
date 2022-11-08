@@ -27,7 +27,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^6.1.2",
-    "babel-loader": "^6.4.1",
+    "babel-loader": "^9.1.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "eslint": "^3.19.0",
@@ -56,6 +56,6 @@
     "minimatch": "^3.0.4",
     "mustache": "^4.1.0",
     "time-grunt": "^2.0.0",
-    "webpack": "^1.15.0"
+    "webpack": "^5.74.0"
   }
 }
